@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD12290C2A4B28D1003C2B5C /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12290B2A4B28D1003C2B5C /* homePage.swift */; };
+		BD4E26682A4B1EBE00C084F4 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4E26672A4B1EBE00C084F4 /* homeView.swift */; };
 		BD8E31D82A49D9750050BB51 /* finalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8E31D72A49D9750050BB51 /* finalAppApp.swift */; };
 		BD8E31DA2A49D9750050BB51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8E31D92A49D9750050BB51 /* ContentView.swift */; };
 		BD8E31DC2A49D9760050BB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8E31DB2A49D9760050BB51 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD12290B2A4B28D1003C2B5C /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		BD4E26672A4B1EBE00C084F4 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
 		BD8E31D42A49D9750050BB51 /* finalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8E31D72A49D9750050BB51 /* finalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalAppApp.swift; sourceTree = "<group>"; };
 		BD8E31D92A49D9750050BB51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				BD8E31D72A49D9750050BB51 /* finalAppApp.swift */,
 				BD8E31D92A49D9750050BB51 /* ContentView.swift */,
+				BD4E26672A4B1EBE00C084F4 /* homeView.swift */,
+				BD12290B2A4B28D1003C2B5C /* homePage.swift */,
 				BD8E31DB2A49D9760050BB51 /* Assets.xcassets */,
 				BD8E31DD2A49D9760050BB51 /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				BD8E31DA2A49D9750050BB51 /* ContentView.swift in Sources */,
 				BD8E31D82A49D9750050BB51 /* finalAppApp.swift in Sources */,
+				BD4E26682A4B1EBE00C084F4 /* homeView.swift in Sources */,
+				BD12290C2A4B28D1003C2B5C /* homePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
