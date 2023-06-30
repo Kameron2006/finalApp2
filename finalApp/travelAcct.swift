@@ -9,7 +9,7 @@ struct travelAcct: View {
     
     var body: some View {
         Form {
-            Section(header: Text("Personal Information")) {
+            Section(header: Text("Personal Information!")) {
                 TextField("Full Name", text: $fullName)
                 DatePicker("Date of Birth", selection: $dateOfBirth, displayedComponents: .date)
             }
